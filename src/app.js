@@ -1,4 +1,4 @@
-import {formatBytes, AddHash, listAllFilesAndDirs} from './logic.js'
+import { formatBytes, AddHash, listAllFilesAndDirs } from './logic.js'
 
 export default {
   name: 'Test',

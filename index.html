@@ -1,37 +1,31 @@
 <html>
-<head>
-<script src="src/vendor/vue.global.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.fluid.classless.min.css">
-<link href="src/styles.css" rel="stylesheet"></link>
-</head>
-<body>
+  <head>
+    <script src="src/vendor/vue.global.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.fluid.classless.min.css">
+    <link href="src/styles.css" rel="stylesheet"></link>
+  </head>
+  <body>
     <header>
-        <hgroup>
-            <h1>Online Dub-Finder</h1>
-            <h2>Inspect two or more folders for duplicate files with your browser. Don't choose sensitive files.</h2>
-        </hgroup>
+      <hgroup>
+        <h1>Online Dub-Finder</h1>
+        <h2>Inspect two or more folders for duplicate files with your browser. Don't choose sensitive files.</h2>
+      </hgroup>
     </header>
+    
     <main>
-        <div id="app"></div>
+      <div id="app"></div>
     </main>
+
     <footer>
-        <small
-        >Built with <a href="https://github.com">Github</a> •
+      <small>Built with <a href="https://github.com">Github</a> •
         <a href="https://github.com/reinerBa/duplicate-finder-online">Source code</a>
-        </small>
+      </small>
     </footer>
 
-<script type="module">
-    import app from './src/app.js'
-    const {createApp} = Vue;
-    createApp(app).mount('#app');
-</script>
-<style>
-body {
-    --spacing: .25em;
-    --typography-spacing-vertical: .25rem;
-}
-    
-</style>
-</body>
+    <script type="module">
+      import app from './src/app.js'
+      const {createApp} = Vue;
+      createApp(app).mount('#app');
+    </script>
+  </body>
 </html>
