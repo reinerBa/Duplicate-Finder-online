@@ -1,0 +1,32 @@
+{
+  "name": "dub-finder-online",
+  "version": "1.0.0",
+  "description": "Finds duplicate files",
+  "main": "index.html",
+  "scripts": {
+    "dev": "alive-server",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "duplicates"
+  ],
+  "author": "Reiner Bamberger",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.2.29"
+  },
+  "devDependencies": {
+    "alive-server": "^1.3.0",
+    "standard": "^16.0.4"
+  },
+  "standard": {
+    "ignore": [
+      "/Examples/",
+      "vue.global.js"
+    ]
+  }
+}
