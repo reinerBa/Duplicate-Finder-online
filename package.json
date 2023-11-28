@@ -4,7 +4,7 @@
   "description": "Finds duplicate files",
   "main": "index.html",
   "scripts": {
-    "dev": "alive-server",
+    "dev": "vite",
     "lint": "standard --fix"
   },
   "repository": {
@@ -17,11 +17,9 @@
   "author": "Reiner Bamberger",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.2.29"
   },
   "devDependencies": {
-    "alive-server": "^1.3.0",
-    "standard": "^16.0.4"
+    "vite": "^5.0.2"
   },
   "standard": {
     "ignore": [
