@@ -22,6 +22,9 @@
       </small>
     </footer>
 
+    <script>
+      navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
+    </script>
     <script type="module">
       import app from './src/app.js'
       const {createApp} = Vue;
