@@ -1,0 +1,11 @@
+{
+   "name": "Duplicate Finder Offline",
+   "short_name" : "DFO",
+   "start_url": "index.html?utm_source=homescreen",
+   "scope" : "./",
+   "icons": [
+   ],
+   "theme_color": "#ffee00",
+   "background_color": "#ffee00",
+   "display": "standalone"
+}
